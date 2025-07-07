@@ -64,35 +64,6 @@
 
         </div>
 
-        <div class="col-12 col-sm-4 col-md-3 col-lg-4">
-          
-          <h4 class="lead">
-            
-            <a href="#" class="text-uppercase">Tecnología</a>
-
-          </h4>
-
-          <hr class="border-white">
-
-          <ul>
-            
-            <li>
-              <a href="#">Calzado para dama</a>
-            </li>
-            <li>
-              <a href="#">Calzado para hombre</a>
-            </li>
-             <li>
-              <a href="#">Calzado deportivo</a>
-            </li>
-            <li>
-              <a href="#">Calzado infantil</a>
-            </li>
-          </ul>
-
-
-        </div>
-
       </div>
 
       <div class="col my-3 my-lg-0 px-lg-5 text-light">

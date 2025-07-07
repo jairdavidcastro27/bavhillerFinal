@@ -22,6 +22,12 @@ if($dataCategories->status == 200){
 
 }
 
+// Filtrar categorías para quitar 'Cursos' y 'Tecnología'
+$dataCategories = array_filter($dataCategories, function($cat) {
+    $nombre = strtolower(trim($cat->name_category));
+    return $nombre !== 'cursos' && $nombre !== 'tecnología';
+});
+
 /*=============================================
 Carrito de compras
 =============================================*/

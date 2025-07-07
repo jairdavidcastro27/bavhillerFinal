@@ -9,9 +9,6 @@
 				<h3 class="card-title">
 					<a href="/admin/productos/gestion" class="btn bg-default templateColor py-2 px-3 btn-sm rounded-pill">Agregar Producto</a>
 					<a href="/admin/productos/productos_proveedores" class="btn btn-info py-2 px-3 btn-sm rounded-pill ml-2">Ver productos y proveedores</a>
-					<a href="/views/pages/productos/precios_comparativa.php" class="btn btn-primary py-2 px-3 btn-sm rounded-pill ml-2">
-						<i class="fas fa-chart-line"></i> Comparativa de precios
-					</a>
 				</h3>
 
 			</div>

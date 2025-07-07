@@ -117,8 +117,7 @@ if($(".productsTable").length > 0){
      {"data":"name_subcategory"},
      {"data":"views_product"},
      {"data":"date_updated_product"},
-     {"data":"actions", "orderable":false, "searchable":false},
-     {"data":"provider"}
+     {"data":"actions", "orderable":false, "searchable":false}
   ]
 
   var order = [0,"desc"];
@@ -245,6 +244,9 @@ $("#tables").DataTable({
     }
 
 });
+
+// Ocultar mensajes de error de DataTables
+$.fn.dataTable.ext.errMode = 'none';
 
 /*=============================================
 Eliminar item
